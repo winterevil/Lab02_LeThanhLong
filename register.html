@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+    <h2>
+        <center>ĐĂNG KÝ THÀNH VIÊN</center>
+    </h2>
+    <form method="post" action="#">
+        <fieldset>
+            <legend>Thông tin cá nhân</legend>
+            <table>
+                <tr>
+                    <td><label>Họ và tên:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="datepicker">Ngày sinh:</label></td>
+                    <td>
+                        <select name="date">
+                            <option value="v1">1</option>
+                            <option value="v2">2</option>
+                            <option value="v3">3</option>
+                            <option value="v4">4</option>
+                            <option value="v5">5</option>
+                            <option value="v6">6</option>
+                            <option value="v7">7</option>
+                            <option value="v8">8</option>
+                            <option value="v9">9</option>
+                            <option value="v10">10</option>
+                            <option value="v11">11</option>
+                            <option value="v12">12</option>
+                            </select>
+                        <label>Tháng</label>
+                        <select name="month">
+                            <option value="v1">1</option>
+                            <option value="v2">2</option>
+                            <option value="v3">3</option>
+                            <option value="v4">4</option>
+                            <option value="v5">5</option>
+                            <option value="v6">6</option>
+                            <option value="v7">7</option>
+                            <option value="v8">8</option>
+                            <option value="v9">9</option>
+                            <option value="v10">10</option>
+                            <option value="v11">11</option>
+                            <option value="v12">12</option>
+                        </select>
+                        <label>Năm</label>
+                        <input type="text" style="width:30px">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Giới tính:</label></td>
+                    <td><input type="radio" name="gender">Nam
+                        <input type="radio" name="gender">Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Địa chỉ:</label></td>
+                    <td><textarea cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>Điện thoại:</label></td>
+                    <td><input type="tel"></td>
+                </tr>
+                <tr>
+                    <td><label>Email:</label></td>
+                    <td><input type="email" required></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Thông tin đăng nhập</legend>
+            <table>
+                <tr>
+                    <td><label>Tên đăng nhập:</label></td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td><label>Mật khẩu:</label></td>
+                    <td><input type="password" required></td>
+                </tr>
+                <tr>
+                    <td><label>Nhập lại mật khẩu:</label></td>
+                    <td><input type="password" required></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <p>
+        <center><button type="submit">Đăng ký</button>
+            <button type="button">Hủy</button>
+        </center>
+    </p>
+</body>
+
+</html>
